@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onmouseover="openNav()"
+      >&#9776; Navigation</span
+    >
+    <div id="main" class="main" onmouseover="closeNav()">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima est
+        eum, dignissimos deleniti adipisci cupiditate culpa beatae, possimus
+        fugit maiores eligendi nisi quod quisquam nobis distinctio pariatur et
+        accusamus mollitia.
+      </p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
